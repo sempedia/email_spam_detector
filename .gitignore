@@ -6,6 +6,10 @@ __pycache__/
 # Ignore virtual environments
 venv/
 .env/
+env/
+
+# Ignore the environment file for sensitive variables
+/.env
 
 # Ignore model and vectorizer files
 spam_detector_model.pkl
